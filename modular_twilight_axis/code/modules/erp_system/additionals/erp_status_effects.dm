@@ -252,7 +252,7 @@
 /atom/movable/screen/alert/status_effect/knot_tied
 	name = "Knotted"
 	icon_state = "knotted"
-	icon = 'modular_twilight_axis/icons/roguetown/misc/screen_alert.dmi'
+	icon = 'modular_twilight_axis/icons/mob/screen_alert.dmi'
 
 // ═══ ОРАЛЬНЫЙ СТАТУС — отдельный тип (не подтип, чтобы has_status_effect не путал) ═══
 /datum/status_effect/knot_tied_oral

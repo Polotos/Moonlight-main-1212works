@@ -90,6 +90,10 @@
 		STATKEY_PER = 3, //sharpshooters
 		STATKEY_SPD = 2
 	)
+	subclass_stashed_items = list(
+		"Wax Putty I" = /obj/item/waxputty,
+		"Wax Putty II" = /obj/item/waxputty,
+	)
 	subclass_skills = list(
 		/datum/skill/combat/crossbows = SKILL_LEVEL_MASTER, //Possibly too high, no idea.
 		/datum/skill/combat/swords = SKILL_LEVEL_JOURNEYMAN,
@@ -114,7 +118,7 @@
 	shoes = /obj/item/clothing/shoes/roguetown/boots/leather/reinforced
 	cloak = /obj/item/clothing/cloak/thief_cloak
 	gloves = /obj/item/clothing/gloves/roguetown/angle
-	belt = /obj/item/storage/belt/rogue/leather/knifebelt/black/steel
+	belt = /obj/item/storage/belt/rogue/leather/tossbelt/blade/black/steel
 	head = /obj/item/clothing/head/roguetown/helmet/kettle/
 	armor = /obj/item/clothing/suit/roguetown/armor/leather/studded
 	backl = /obj/item/storage/backpack/rogue/satchel
